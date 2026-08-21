@@ -20,3 +20,10 @@ graph TD;
     H -->|Home Assistant API| L[Home Assistant API]
     H -->|MQTT| M[MQTT]
     H -->|ESPHome Web UI| N[ESPHome Web UI]
+
+flowchart LR
+
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
